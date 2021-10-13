@@ -51,13 +51,11 @@ while True:
         webbrowser.open('http://google.com', new=2)
     elif "open youtube" in text:
         webbrowser.open("https://www.youtube.com",new=2)
-    elif "play songs" in text:
-        import jj1
     elif "exit" in text:
         quit()
     elif "1" in text:
         import jack
     elif "2" in text:
-        os.startfile("F:\\Plants vs Zombies\\plants vs zombies.exe")
+        pass
     elif "___" in text:
         pass
